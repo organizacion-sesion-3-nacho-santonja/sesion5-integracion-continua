@@ -40,7 +40,7 @@ class CalculatorTest extends TestCase
         $this->assertTrue($result);
     }
 
-    public function testIsEven(): void
+    public function testIsOdd(): void
     {
         $result = $this->calculator->isEven(11);
         $this->assertFalse($result);
