@@ -17,7 +17,7 @@ class Calculator
         return $a / $b;
     }
     
-    public function isEven($a): boolean
+    public function isEven($a): bool
     {
         return $a%2==0;
     }
