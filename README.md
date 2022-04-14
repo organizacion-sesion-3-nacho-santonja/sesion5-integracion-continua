@@ -14,3 +14,5 @@ composer install
 ``` bash
 composer test
 ```
+
+[![Build Status](https://app.travis-ci.com/organizacion-sesion-3-nacho-santonja/sesion5-integracion-continua.svg?branch=main)](https://app.travis-ci.com/organizacion-sesion-3-nacho-santonja/sesion5-integracion-continua)
