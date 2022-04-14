@@ -16,5 +16,10 @@ class Calculator
     {
         return $a / $b;
     }
+    
+    public function isEven($a): float
+    {
+        return $a%2==0;
+    }
  
 }

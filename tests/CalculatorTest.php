@@ -33,5 +33,17 @@ class CalculatorTest extends TestCase
         $result = $this->calculator->division(10, 2);
         $this->assertEquals(5, $result);
     }
+    
+    public function testIsEven(): void
+    {
+        $result = $this->calculator->isEven(10);
+        $this->assertTrue($result);
+    }
+
+    public function testIsEven(): void
+    {
+        $result = $this->calculator->isEven(11);
+        $this->assertFalse($result);
+    }
  
 }
